@@ -1,4 +1,5 @@
 import React from 'react'
+import LogIn from './LogIn.jsx';
 
 function WeatherCard() {
   return (
@@ -12,6 +13,8 @@ function WeatherCard() {
           </div>
         </div>
       </div>
+
+      <LogIn />
     </>
   )
 }
