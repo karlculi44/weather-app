@@ -1,4 +1,5 @@
 import WeatherCard from "./WeatherCard.jsx"
+import Accordion from "./Accordion.jsx"
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <WeatherCard />
+      <Accordion />
     </>
   )
 }
